@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="f1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <h2>Cm to Inches</h2>
+        <div>
+            <input type="text" placeholder="enter the number" id="input">
+        </div>
+        <div>
+            <button type="submit" onclick="calculate()">calculate</button>
+        </div>
+        <h2 id="result"></h2>
+    </div>
+
+    <script>
+        function calculate(){
+            let number=Number(document.getElementById("input").value)
+        let cmval = number+2.54;
+        var result=document.getElementById('result')
+        result.innerHTML=cmval;
+        }
+        
+    </script>
+    
+</body>
+</html>
