@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+}
+#head{
+    display: flex;
+    justify-content:space-around;
+    font-size: 2rem;
+    color:red;
+}
+#wrap{
+    height:90vh;
+    width:100vw;
+    border-top:3px solid #323232;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn{
+    width:180px;
+    padding:8px;
+    font-size:1.2em;
+    border-radius: 5px;
+    outline: none;
+    border:2px solid black;
+    color:white;
+    background-color: rgb(233, 17, 17);
+}
+
